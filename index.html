@@ -3,12 +3,36 @@
 	<head>
 		<title>Kalandra Game</title>
 		<meta charset="UTF-8">
+		<style>
+			body {
+				background-color: black;
+				color: white;
+			}
+
+			a:link {  /* Unvisited links */
+				color: #1E90FF; /* A shade of blue */
+				text-decoration: none; /* Optional: removes underline */
+			}
+
+			a:visited {  /* Visited links */
+				color: #9370DB; /* A shade of purple */
+			}
+
+			a:hover {  /* Mouse over links */
+				color: #FF4500; /* A shade of orange */
+				text-decoration: underline; /* Optional: underlines text on hover */
+			}
+
+			a:active {  /* Selected links */
+				color: #32CD32; /* A shade of green */
+			}
+		</style>
 	</head>
 	<body>
 		<canvas id="canvas"></canvas>
 		<script src="index.js"></script>
 		<script>
-			var engine = new Engine({"args":[],"canvasResizePolicy":0,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":14127344,"index.wasm":35410474},"focusCanvas":true,"gdextensionLibs":[]});
+			var engine = new Engine({"args":[],"canvasResizePolicy":1,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":14127344,"index.wasm":35410474},"focusCanvas":true,"gdextensionLibs":[]});
 			engine.startGame();
 		</script>
 		<div>Code written by Jordan (Fariel) Willis</div>
