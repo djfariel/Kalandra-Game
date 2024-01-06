@@ -64,87 +64,90 @@
 	<body>
 		<br />
 		<h1>Kalandra Game</h1>
-		<canvas id="canvas" tabindex="0" width="1200" height="800" style="width: 1200px; height: 800px;"></canvas>
-		<script src="index.js"></script>
-		<script>
-			var engine = new Engine({"args":[],"canvasResizePolicy":1,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":11180304,"index.wasm":35410474},"focusCanvas":true,"gdextensionLibs":[]});
-			engine.startGame();
-		</script>
-		<hr />
-		<div>Code written by Jordan (Fariel) Willis</div>
-		<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js' crossorigin="anonymous"></script><script type='text/javascript' crossorigin="anonymous">kofiwidget2.init('Support Fariel (The Guy Who Wrote The Code) on Ko-fi', '#6f28e0', 'D1D1SYTHX');kofiwidget2.draw();</script> 
-		<div><a href="https://www.youtube.com/channel/UCeoQ0pdfiv-JvBdxqBJtViA" target="_blank">Music written by Sondrian</a></div>
-		<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js' crossorigin="anonymous"></script><script type='text/javascript' crossorigin="anonymous">kofiwidget2.init('Support Sondrian (The Guy Who Wrote The Music) on Ko-fi', '#00a8a5', 'H2H0SZ3RC');kofiwidget2.draw();</script>
-		<div>Orb images, Kalandra, and other Path of Exile content property of and/or copyright Grinding Gear Games</div>
-		<div><a href="https://www.pathofexile.com/" target="_blank">Play Path of Exile for free.</a></div>
-		<div>Sound effects sourced from public domain. If GGG would like to give me loot filter sounds to implement, I would happily do that.</div>
-		
-		<h3>Changelog</h3>
-		
-		<ul>
-			<li>2.2.0
-			<ul>
-				<li>Added Changelog</li>
-				<li>Fixed potential physics crash</li>
-				<li>Added difficulty labels</li>
-				<li>Removed unused textures</li>
-				<li>Theoretically fixed regal orbs deleting extra orbs</li>
-				<li>Added mode label on Game Over screen</li>
-			</ul>
-			</li>
+		<div>
+			<canvas id="canvas" tabindex="0" width="1200" height="800" style="width: 1200px; height: 800px;"></canvas>
+			<script src="index.js"></script>
+			<script>
+				var engine = new Engine({"args":[],"canvasResizePolicy":1,"executable":"index","experimentalVK":false,"fileSizes":{"index.pck":11180304,"index.wasm":35410474},"focusCanvas":true,"gdextensionLibs":[]});
+				engine.startGame();
+			</script>
+		</div>
+		<div>
+			<div>Code written by Jordan (Fariel) Willis</div>
+			<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js' crossorigin="anonymous"></script><script type='text/javascript' crossorigin="anonymous">kofiwidget2.init('Support Fariel (The Guy Who Wrote The Code) on Ko-fi', '#6f28e0', 'D1D1SYTHX');kofiwidget2.draw();</script> 
+			<div><a href="https://www.youtube.com/channel/UCeoQ0pdfiv-JvBdxqBJtViA" target="_blank">Music written by Sondrian</a></div>
+			<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js' crossorigin="anonymous"></script><script type='text/javascript' crossorigin="anonymous">kofiwidget2.init('Support Sondrian (The Guy Who Wrote The Music) on Ko-fi', '#00a8a5', 'H2H0SZ3RC');kofiwidget2.draw();</script>
+			<div>Orb images, Kalandra, and other Path of Exile content property of and/or copyright Grinding Gear Games</div>
+			<div><a href="https://www.pathofexile.com/" target="_blank">Play Path of Exile for free.</a></div>
+			<div>Sound effects sourced from public domain. If GGG would like to give me loot filter sounds to implement, I would happily do that.</div>
 			
-			<li>2.1.0
-			<ul>
-				<li>Added support for right mouse button triggering orb swap</li>
-				<li>Modified vaal orb weights</li>
-			</ul>
-			</li>
+			<h3>Changelog</h3>
 			
-			<li>2.0.1
 			<ul>
-				<li>Removed debug weighting for chromatic orbs</li>
+				<li>2.2.0
+				<ul>
+					<li>Added Changelog</li>
+					<li>Fixed potential physics crash</li>
+					<li>Added difficulty labels</li>
+					<li>Removed unused textures</li>
+					<li>Theoretically fixed regal orbs deleting extra orbs</li>
+					<li>Added mode label on Game Over screen</li>
+				</ul>
+				</li>
+				
+				<li>2.1.0
+				<ul>
+					<li>Added support for right mouse button triggering orb swap</li>
+					<li>Modified vaal orb weights</li>
+				</ul>
+				</li>
+				
+				<li>2.0.1
+				<ul>
+					<li>Removed debug weighting for chromatic orbs</li>
+				</ul>
+				</li>
+				
+				<li>2.0.0
+				<ul>
+					<li>Added "Extra Orbs" mode</li>
+					<li>Added Menu</li>
+					<li>Added Swap feature</li>
+				</ul>
+				</li>
+				
+				<li>1.1.2
+				<ul>
+					<li>Fix overzealous vaaling again</li>
+				</ul>
+				</li>
+				
+				<li>1.1.1
+				<ul>
+					<li>Fix overzealous vaaling</li>
+				</ul>
+				</li>
+				
+				<li>1.1.0
+				<ul>
+					<li>Preload explosions</li>
+					<li>Fix explosion lag</li>
+				</ul>
+				</li>
+				
+				<li>1.0.1
+				<ul>
+					<li>Updated rendering settings to better fit the page</li>
+				</ul>
+				</li>
+				
+				<li>1.0.0
+				<ul>
+					<li>Initial public release</li>
+				</ul>
+				</li>
 			</ul>
-			</li>
-			
-			<li>2.0.0
-			<ul>
-				<li>Added "Extra Orbs" mode</li>
-				<li>Added Menu</li>
-				<li>Added Swap feature</li>
-			</ul>
-			</li>
-			
-			<li>1.1.2
-			<ul>
-				<li>Fix overzealous vaaling again</li>
-			</ul>
-			</li>
-			
-			<li>1.1.1
-			<ul>
-				<li>Fix overzealous vaaling</li>
-			</ul>
-			</li>
-			
-			<li>1.1.0
-			<ul>
-				<li>Preload explosions</li>
-				<li>Fix explosion lag</li>
-			</ul>
-			</li>
-			
-			<li>1.0.1
-			<ul>
-				<li>Updated rendering settings to better fit the page</li>
-			</ul>
-			</li>
-			
-			<li>1.0.0
-			<ul>
-				<li>Initial public release</li>
-			</ul>
-			</li>
-		</ul>
+		</div>
 	</body>
 </html>
 
